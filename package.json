@@ -1,0 +1,29 @@
+{
+  "name": "mandelbulb",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "open": "open ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomohiro-inaba/mandelbulb.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomohiro-inaba/mandelbulb/issues"
+  },
+  "homepage": "https://github.com/tomohiro-inaba/mandelbulb#readme",
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "babylonjs": "^4.0.3"
+  }
+}
